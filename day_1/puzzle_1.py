@@ -5,7 +5,7 @@ with open('input.txt') as f:
 # Remove newline character at the end of each entry in the list and convert them to int
 lines = [int(line[:-1]) for line in lines]
 
-# Number of measurements that are bigger than the previous one
+# Number of measurements that are larger than the previous one
 bigger_than_prev_count = 0
 
 for i in range(len(lines)):
