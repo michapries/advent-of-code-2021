@@ -1,5 +1,5 @@
 # Read input file
-with open('input_puzzle_1.txt') as f:
+with open('input.txt') as f:
     lines = f.readlines()
 
 # Remove newline character at the end of each entry in the list and convert them to int
