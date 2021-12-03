@@ -1,5 +1,3 @@
-
-
 def first_challenge(formatted_input):
     x = 0       # Initial horizontal position
     depth = 0   # Initial depth
